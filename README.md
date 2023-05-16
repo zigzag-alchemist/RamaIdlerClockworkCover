@@ -1,7 +1,8 @@
 This is a mod of the [Rama front idlers](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Front_Idlers) for the Voron 2.4. Its purpose is to keep the two tensioning screws synchronized by connecting them via a spur gear assembly in a housing cover.  The profile is identical to the original Rama idlers, however the mod takes an extra 4mm of space towards the doors of the printer for the gears and cover.
 
-![Overview](Images/Exploded_Overview.png | width=100)
-![Video](Images/ClockworkCover.mp4 | width=100)
+![Overview](Images/Exploded_Overview.png)
+
+![Video](Images/ClockworkCover.mp4)
 
 #Warning!
 
@@ -23,21 +24,21 @@ This mod has had almost no testing and is very experimental! It seems to work an
 
 - Stack an M3 washer, the [10T\_Spur\_Gear\_x2.stl](STL/10T_Spur_Gear_x2.stl) (with the recess for the washer pointing towards the washer), and an M3x25 SHCS tensioning screw from the Rama Idler BOM,  into the [Press\_Fit\_Jig\_x1.stl](STL/Press_Fit_Jig_x1.stl)[Press_Fit_Jig_x1.stl].
 
-![Press_Fit_Stack_Before](Images/M3x25_10T_in_jig_ready_for_vice.png | width=100)
+![Press_Fit_Stack_Before](Images/M3x25_10T_in_jig_ready_for_vice.png)
 
 - Press fit the stack together in a vice or with clamp, or if you're feeling strong just squeeze together. Repeat the same procedure for the other M3x25 screw and 10T gear.
 
-![Press_Fit_Stack_After](Images/M3x25_10T_after_press_fit.png | width=100)
+![Press_Fit_Stack_After](Images/M3x25_10T_after_press_fit.png)
 
 - Follow the normal Rama assembly guidelines up to screwing in the two M3x25 screws.
 - [NOTE] It is a good idea during the next step to press the Rama Idler firmly flat against main body. If the connecting spur goes in while the idler is wonky, the idler will always be wonky.
 - Screw in the two press fit M3x25s through the new [Housing\_Cover\_x1.stl](STL/Housing_Cover_x1.stl) until they just begin to tug on the idler. Position the [14T\_Connecting_Spur\_Gear\_x1.stl](STL/14T_Connecting_Spur_Gear_x1.stl) between the other two gears and centered on the hole.
 
-![Gear_Setup](Images/M3x25_and_10T_fitted_through_housing_cover.png | width=100)
+![Gear_Setup](Images/M3x25_and_10T_fitted_through_housing_cover.png)
 
 - Position the [Outer\_Cover\_x1.stl](STL/Outer_Cover_x1.stl) over the gear assembly and gently screw in the M3x10FHCS through the Outer Cover, the 14T connecting gear, and into the hole in the Housing Cover. It threads directly into the plastic so do not overtighten.
 - Finally screw in the M3x16 SHCS at the top (again, be careful, it threads into plastic)
 
-![Completed](Images/OuterCover_Fitted_with_M3x16SHCS_and_M3x10FHCS.png | width=100)
+![Completed](Images/OuterCover_Fitted_with_M3x16SHCS_and_M3x10FHCS.png)
 
 - You can adjust the tension by turning either of the recessed M3x25 screws, and the other one should stay in sync, as shown in the video.
