@@ -33,7 +33,7 @@ It seems to work and it is very simple, but I haven't had time to test it in my 
 
 # Instructions
 
-- Stack an M3 washer, the [10T\_Spur\_Gear\_x2.stl](STL/10T_Spur_Gear_x2.stl) (orientated so that the washer fits into the recess in the gear), and an M3x25 SHCS tensioning screw from the Rama Idler BOM,  into the [Press\_Fit\_Jig\_x1.stl](STL/Press_Fit_Jig_x1.stl)[Press_Fit_Jig_x1.stl].
+- Stack an M3 washer, the [10T\_Spur\_Gear\_x2.stl](STL/10T_Spur_Gear_x2.stl) (orientated so that the washer fits into the recess in the gear), and an M3x25 SHCS tensioning screw from the Rama Idler BOM,  into the [Press\_Fit\_Jig\_x1.stl](STL/Press_Fit_Jig_x1.stl).
 
 ![Press_Fit_Stack_Before](Images/M3x25_10T_in_jig_ready_for_vice.png)
 
@@ -42,7 +42,7 @@ It seems to work and it is very simple, but I haven't had time to test it in my 
 ![Press_Fit_Stack_After](Images/M3x25_10T_after_press_fit.png)
 
 - Follow the normal Rama assembly guidelines up to screwing in the two M3x25 screws.
-- ***It is a good idea during the next step to press the Rama Idler firmly flat against main body. If the connecting spur goes in while the idler is wonky, the idler will be synchronised wonky.***
+- ***It is a good idea during the next step to press the idler firmly flat against the far side of the rama main body to keep it straight. If the connecting spur goes in while the idler is wonky, the idler will be synchronised wonky.***
 - Screw in the two press fit M3x25s through the new [Housing\_Cover\_x1.stl](STL/Housing_Cover_x1.stl) until they just begin to tug on the idler. Position the [14T\_Connecting_Spur\_Gear\_x1.stl](STL/14T_Connecting_Spur_Gear_x1.stl) between the other two gears and centered on the hole.
 
 ![Gear_Setup](Images/M3x25_and_10T_fitted_through_housing_cover.png)
