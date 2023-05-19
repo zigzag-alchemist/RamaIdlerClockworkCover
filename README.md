@@ -7,8 +7,7 @@ The profile of the idler is identical to the original Rama idlers, however the m
 
 ![Overview](Images/Exploded_Overview.png)
 
-https://github.com/zigzag-alchemist/RamaIdlerClockworkCover/assets/133815727/11df18ba-0d82-4cf4-ad9c-519fff14092d
-
+https://github.com/zigzag-alchemist/RamaIdlerClockworkCover/assets/133815727/17510b1a-aaa8-4d9a-9919-942fed6e33c1
 
 # Warning!
 
@@ -26,16 +25,15 @@ It seems to work and it is very simple, but I haven't had time to test it in my 
 
 # BOM (For 2 idlers, on top of the standard Rama Idler BOM)
 
-```
 Quantity      | Description              | Notes
-------------- | -------------            | -------------
+|:----------- |:------------------------ |:---------------------------------------------
 2             | M3x12 SHCS               |
 2             | M8x12 SHCS               |
 4             | M3x30/40 Hexhead DIN 931 | Replaces the M3x30/40 SHCS in Rama Idler BOM
 2             | M3 Hexnut                |
 6             | M3 Washer                |
 2             | F623-2RS bearing         |
-```
+
 
 # Instructions
 
@@ -52,29 +50,29 @@ Quantity      | Description              | Notes
 
 ![Step_3](Images/Step_3_PressFit_M3x30Hexhead.png)
 
-4. Thread the two pressfit spur gears with an M3 washer into the Rama Idler.
-    1. For the convenience of Step 7, flip the `HexNut_Tool_x1.stl` and slot it into the house so the circular protrusion is facing the idler.
+4. Insert the 10T M3x30 spur gears into the Rama Idler housing
+    1. For the convenience of Step 7, flip the `HexNut_Tool_x1.stl` and slot it into the house so the circular protrusion is facing the idler
 ![Step_4a](Images/Step_4a_Thread_M3x30Hexhead.png)
-    2. Gently tighten the M3x30 spur gears with M3 washers until they both slightly tug the idler flat and even against the `HexNut_Tool_x1.stl`.
+    2. Gently tighten the M3x30 spur gears with M3 washers until they both slightly tug the idler flat and even against the `HexNut_Tool_x1.stl`
 ![Step_4b](Images/Step_4b_Thread_M3x30Hexhead.png)
 
 5. Use the `Press_Fit_Jig_x1.stl` to press the M3x8SHCS into the `14T_Control_Gear_x2.stl`
 ![Step_5](Images/Step_5_Pressfit_M3x8SHCS.png)
 
-6. Slide out the `HexNut_Tool_x1.stl` if it is still in the Rama housing, and insert an M3 hexnut.
+6. Slide out the `HexNut_Tool_x1.stl` if it is still in the Rama housing, and insert an M3 hexnut
 ![Step_6](Images/Step_6_Insert_M3Nut_In_Tool.png)
 
-7. Attach the `14T_Control_Gear_x2.stl` to the bearing.
-    1. Insert the `HexNut_Tool_x1.stl` with the captured hexnut is facing the F623 bearing.
+7. Attach the `14T_Control_Gear_x2.stl` to the bearing
+    1. Insert the `HexNut_Tool_x1.stl` with the captured hexnut is facing the F623 bearing
     2. Screw the M3x8SHCS and `14T_Control_Gear_x2.stl` through the F623 bearing and into the HexNut 
-    3. Use the `HexNut_Tool_x1.stl` to prevent the hexnut from turning, and firmly tighten the M3x8SHCS.
-    4. *As you tighten the M3x8SHCS, the two 10T spur gears will tend to screw outwards, just keep pushing them back in and keep them engaged with the 14T gear. This is why we left room for the idler to move inwards in Step 4.
+    3. Use the `HexNut_Tool_x1.stl` to prevent the hexnut from turning, and firmly tighten the M3x8SHCS
+    4. *As you tighten the M3x8SHCS, the two 10T spur gears will tend to screw outwards, just keep pushing them back in and keep them engaged with the 14T gear. This is why we left room for the idler to move inwards in Step 4*
 
 ![Step_7](Images/Step_7_Screw_Control_Gear_Into_M3Nut.png)
 
 
-8.  The `Outer_Cover.stl` has small catches and can simply be pressed on until you hear a click.
-    1. *Side Note: The `Outer_Cover.stl` is there to prevent the 10T gears from screwing outwards when the belts are completely loosened. During normal operation with tension on the belts the `Outer_Cover.stl` it purely aesthetic and may indeed be left off entirely if desired.*
+8.  The `Outer_Cover.stl` has small catches and can simply be pressed on until you hear a click
+    1. *Side Note: The `Outer_Cover.stl` is there to prevent the 10T gears from screwing outwards when the belts are completely loosened. During normal operation with tension on the belts the `Outer_Cover.stl` it purely aesthetic and may indeed be left off entirely if desired*
 ![Step_8](Images/Step_8_Press_On_Outer_Cover_Until_Click.png)
 
-9. To increase tension on the belts the exposed control screw must be turned anti-clockwise (and to decrease tension, clockwise). The gear mechanism reverses the tensioning direction from the standard Rama Idler.
+9. To increase tension on the belts the exposed control screw must be turned anti-clockwise (and to decrease tension, clockwise). The gear mechanism reverses the tensioning direction from that of the standard Rama Idler
