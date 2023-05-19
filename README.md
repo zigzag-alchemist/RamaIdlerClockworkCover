@@ -37,7 +37,7 @@ Quantity      | Description              | Notes
 
 # Instructions
 
-1. Use the `Press_Fit_Jig_x1.stl` to press the F623-2RS into the `Housing_Cover.stl`
+1. Use the `HexNut_Tool_x1.stl` to press the F623-2RS into the `Housing_Cover.stl`
 
 ![Step_1](Images/Step_1_PressFit_F623-2RS.png)
 
@@ -46,7 +46,7 @@ Quantity      | Description              | Notes
 
 ![Step_2](Images/Step_2_M3x12_Attach_Housing_Cover.png)
 
-3. Pressfit the M3x30 Hexagon head bolt into the `10T_Spur_Gear_Hex_x4.stl`
+3. Pressfit the M3x30 Hexagon head bolt into the `10T_Spur_Gear_Hex_x4.stl`. *The `Press_Fit_Jig_x1.stl` may be helpful for doing this with a vice or clamp.*
 
 ![Step_3](Images/Step_3_PressFit_M3x30Hexhead.png)
 
