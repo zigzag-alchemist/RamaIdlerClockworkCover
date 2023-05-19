@@ -21,35 +21,60 @@ It seems to work and it is very simple, but I haven't had time to test it in my 
 - Print with the standard Voron settings:
   - No supports required.
   - Parts should already be orientated correctly for printing.
-  - The suffixes\_xN.stl  denote the number of copies required for 1 idler.
-  - I haven't specified accents yet, maybe the [Outer\_Cover\_x1](STL/Outer_Cover_x1.stl) should have an accent.
-- For the second idler, print again according to the suffixes, but mirror the [Outer\_Cover\_x1](STL/Outer_Cover_x1.stl) and the [Housing\_Cover\_x1.stl](STL/Housing_Cover_x1.stl). (You can actually just mirror everything).
-- The [Housing\_Cover\_x1.stl](STL/Housing_Cover_x1.stl) is the only file which replaces a part of the stock Rama Idler (the [Front-Idlers\_Housing-Cover.stl](https://github.com/Ramalama2/Voron-2-Mods/blob/main/Front_Idlers/Voron%202.4/STL/Front-Idlers_Housing-Cover.stl)), the rest of the Rama Idler parts are required, as well as the additional parts show here.
+- The `suffixes\_xN.stl`  denote the number of copies required for both left and right idlers. `[a]_` is for an optional accented color scheme.
+- The `Housing\_Cover\_[A/B]\_x1.stl` is the only printed part which replaces a part of the stock Rama Idler (the [Front-Idlers\_Housing-Cover.stl](https://github.com/Ramalama2/Voron-2-Mods/blob/main/Front_Idlers/Voron%202.4/STL/Front-Idlers_Housing-Cover.stl)).
 
-# BOM (On top of the standard Rama Idler BOM)
+# BOM (For 2 idlers, on top of the standard Rama Idler BOM)
 
-- 1x M3x16 SHCS
-- 1x M3x10 FHCS
+```
+Quantity      | Description              | Notes
+------------- | -------------            | -------------
+2             | M3x12 SHCS               |
+2             | M8x12 SHCS               |
+4             | M3x30/40 Hexhead DIN 931 | Replaces the M3x30/40 SHCS in Rama Idler BOM
+2             | M3 Hexnut                |
+6             | M3 Washer                |
+2             | F623-2RS bearing         |
+```
 
 # Instructions
 
-- Stack an M3 washer, the [10T\_Spur\_Gear\_x2.stl](STL/10T_Spur_Gear_x2.stl) (orientated so that the washer fits into the recess in the gear), and an M3x25 SHCS tensioning screw from the Rama Idler BOM,  into the [Press\_Fit\_Jig\_x1.stl](STL/Press_Fit_Jig_x1.stl)[Press_Fit_Jig_x1.stl].
+1. Use the `Press_Fit_Jig_x1.stl` to press the F623-2RS into the `Housing_Cover.stl`
 
-![Press_Fit_Stack_Before](Images/M3x25_10T_in_jig_ready_for_vice.png)
+![Step_1](Images/Step_1_PressFit_F623-2RS.png)
 
-- Press fit the stack together in a vice or with clamp, or if you're feeling strong just squeeze together. Repeat the same procedure for the other M3x25 screw and 10T gear.
+2. Complete the rest of the Rama Idler and then install the `Housing_Cover.stl`
+  with a M3x12SHCS. *Careful not to overtighten, it threads into plastic*
 
-![Press_Fit_Stack_After](Images/M3x25_10T_after_press_fit.png)
+![Step_2](Images/Step_2_M3x12_Attach_Housing_Cover.png)
 
-- Follow the normal Rama assembly guidelines up to screwing in the two M3x25 screws.
-- ***It is a good idea during the next step to press the Rama Idler firmly flat against main body. If the connecting spur goes in while the idler is wonky, the idler will be synchronised wonky.***
-- Screw in the two press fit M3x25s through the new [Housing\_Cover\_x1.stl](STL/Housing_Cover_x1.stl) until they just begin to tug on the idler. Position the [14T\_Connecting_Spur\_Gear\_x1.stl](STL/14T_Connecting_Spur_Gear_x1.stl) between the other two gears and centered on the hole.
+3. Pressfit the M3x30 Hexagon head bolt into the `10T_Spur_Gear_Hex_x4.stl`
 
-![Gear_Setup](Images/M3x25_and_10T_fitted_through_housing_cover.png)
+![Step_3](Images/Step_3_PressFit_M3x30Hexhead.png)
 
-- Position the [Outer\_Cover\_x1.stl](STL/Outer_Cover_x1.stl) over the gear assembly and gently screw in the M3x10FHCS through the Outer Cover, the 14T connecting gear, and into the hole in the Housing Cover. It threads directly into the plastic so do not overtighten.
-- Finally screw in the M3x16 SHCS at the top (again, be careful, it threads into plastic)
+4. Thread the two pressfit spur gears with an M3 washer into the Rama Idler.
+    1. For the convenience of Step 7, flip the `HexNut_Tool_x1.stl` and slot it into the house so the circular protrusion is facing the idler.
+![Step_4a](Images/Step_4a_Thread_M3x30Hexhead.png)
+    2. Gently tighten the M3x30 spur gears with M3 washers until they both slightly tug the idler flat and even against the `HexNut_Tool_x1.stl`.
+![Step_4b](Images/Step_4b_Thread_M3x30Hexhead.png)
 
-![Completed](Images/OuterCover_Fitted_with_M3x16SHCS_and_M3x10FHCS.png)
+5. Use the `Press_Fit_Jig_x1.stl` to press the M3x8SHCS into the `14T_Control_Gear_x2.stl`
+![Step_5](Images/Step_5_Pressfit_M3x8SHCS.png)
 
-- You can adjust the tension by turning either of the recessed M3x25 screws, and the other one should stay in sync, as shown in the video.
+6. Slide out the `HexNut_Tool_x1.stl` if it is still in the Rama housing, and insert an M3 hexnut.
+![Step_6](Images/Step_6_Insert_M3Nut_In_Tool.png)
+
+7. Attach the `14T_Control_Gear_x2.stl` to the bearing.
+    1. Insert the `HexNut_Tool_x1.stl` with the captured hexnut is facing the F623 bearing.
+    2. Screw the M3x8SHCS and `14T_Control_Gear_x2.stl` through the F623 bearing and into the HexNut 
+    3. Use the `HexNut_Tool_x1.stl` to prevent the hexnut from turning, and firmly tighten the M3x8SHCS.
+    4. *As you tighten the M3x8SHCS, the two 10T spur gears will tend to screw outwards, just keep pushing them back in and keep them engaged with the 14T gear. This is why we left room for the idler to move inwards in Step 4.
+
+![Step_7](Images/Step_7_Screw_Control_Gear_Into_M3Nut.png)
+
+
+8.  The `Outer_Cover.stl` has small catches and can simply be pressed on until you hear a click.
+    1. *Side Note: The `Outer_Cover.stl` is there to prevent the 10T gears from screwing outwards when the belts are completely loosened. During normal operation with tension on the belts the `Outer_Cover.stl` it purely aesthetic and may indeed be left off entirely if desired.*
+![Step_8](Images/Step_8_Press_On_Outer_Cover_Until_Click.png)
+
+9. To increase tension on the belts the exposed control screw must be turned anti-clockwise (and to decrease tension, clockwise). The gear mechanism reverses the tensioning direction from the standard Rama Idler.
