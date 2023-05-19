@@ -20,8 +20,8 @@ It seems to work and it is very simple, but I haven't had time to test it in my 
 - Print with the standard Voron settings:
   - No supports required.
   - Parts should already be orientated correctly for printing.
-- The `suffixes\_xN.stl`  denote the number of copies required for both left and right idlers. `[a]_` is for an optional accented color scheme.
-- The `Housing\_Cover\_[A/B]\_x1.stl` is the only printed part which replaces a part of the stock Rama Idler (the [Front-Idlers\_Housing-Cover.stl](https://github.com/Ramalama2/Voron-2-Mods/blob/main/Front_Idlers/Voron%202.4/STL/Front-Idlers_Housing-Cover.stl)).
+- The `suffixes_xN.stl`  denote the number of copies required for both left and right idlers. `[a]_` is for an optional accented color scheme.
+- The `Housing_Cover_[A/B]_x1.stl` is the only printed part which replaces a part of the stock Rama Idler (the [Front-Idlers\_Housing-Cover.stl](https://github.com/Ramalama2/Voron-2-Mods/blob/main/Front_Idlers/Voron%202.4/STL/Front-Idlers_Housing-Cover.stl)).
 
 # BOM (For 2 idlers, on top of the standard Rama Idler BOM)
 
