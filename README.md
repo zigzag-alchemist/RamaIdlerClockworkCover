@@ -64,7 +64,7 @@ Quantity      | Description              | Notes
 
 7. Attach the `14T_Control_Gear_x2.stl` to the bearing
     1. Insert the `HexNut_Tool_x1.stl` with the captured hexnut is facing the F623 bearing
-    2. Screw the M3x8SHCS and `14T_Control_Gear_x2.stl` through the F623 bearing and into the HexNut 
+    2. Screw the M3x8SHCS and `14T_Control_Gear_x2.stl` with an M3 washer through the F623 bearing and into the HexNut 
     3. Use the `HexNut_Tool_x1.stl` to prevent the hexnut from turning, and firmly tighten the M3x8SHCS
     4. *As you tighten the M3x8SHCS, the two 10T spur gears will tend to screw outwards, just keep pushing them back in and keep them engaged with the 14T gear. This is why we left room for the idler to move inwards in Step 4*
 
