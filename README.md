@@ -22,6 +22,7 @@ It seems to work and it is very simple, but I haven't had time to test it in my 
   - Parts should already be orientated correctly for printing.
 - The `suffixes_xN.stl`  denote the number of copies required for both left and right idlers. `[a]_` is for an optional accented color scheme.
 - The `Housing_Cover_[A/B]_x1.stl` is the only printed part which replaces a part of the stock Rama Idler (the [Front-Idlers\_Housing-Cover.stl](https://github.com/Ramalama2/Voron-2-Mods/blob/main/Front_Idlers/Voron%202.4/STL/Front-Idlers_Housing-Cover.stl)).
+- You probably only need one of the `HexNut_Tool` options. The `Short` version may be more useful if the idler is already mounted and you only have room on one side, but the regular version is easier to use.
 
 # BOM (For 2 idlers, on top of the standard Rama Idler BOM)
 
