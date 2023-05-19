@@ -73,7 +73,7 @@ Quantity      | Description              | Notes
 
 
 8.  The `Outer_Cover.stl` has small catches and can simply be pressed on until you hear a click
-    1. *Side Note: The `Outer_Cover.stl` is there to prevent the 10T gears from screwing outwards when the belts are completely loosened. During normal operation with tension on the belts the `Outer_Cover.stl` it purely aesthetic and may indeed be left off entirely if desired*
+    1. *Side Note: The `Outer_Cover.stl` is there to prevent the 10T gears from screwing outwards when the belts are completely loosened. During normal operation with tension on the belts the `Outer_Cover.stl` is purely aesthetic and may indeed be left off entirely if so desired*
 ![Step_8](Images/Step_8_Press_On_Outer_Cover_Until_Click.png)
 
 9. To increase tension on the belts the exposed control screw must be turned anti-clockwise (and to decrease tension, clockwise). The gear mechanism reverses the tensioning direction from that of the standard Rama Idler
