@@ -20,7 +20,7 @@ It has been running fine in my machine (~100hrs of print time, 2 tensioning cycl
 - Print with the standard Voron settings:
   - No supports required.
   - Parts should already be orientated correctly for printing.
-- The `suffixes_xN.stl`  denote the number of copies required for both left and right idlers. `[a]_` is for an optional accented color scheme.
+- The `N` in `[partname]_xN.stl` denotes the number of copies required for both left and right idlers. No mirroring is required, the part is simply rotated for the left and right idlers to work with the lower and upper belts on both sides (same as the rama mod itself). `[a]_` is for an optional accented color scheme.
 - The `Housing_Cover_x2.stl` is the only printed part which replaces a part of the stock Rama Idler (the [Front-Idlers\_Housing-Cover.stl](https://github.com/Ramalama2/Voron-2-Mods/blob/main/Front_Idlers/Voron%202.4/STL/Front-Idlers_Housing-Cover.stl)).
 - You probably only need one of the `HexNut_Tool` options. The `Short` version may be more useful if the idler is already mounted and you only have room on one side, but the regular version is easier to use.
 
@@ -71,9 +71,8 @@ Quantity      | Description              | Notes
 
 ![Step_7](Images/Step_7_Screw_Control_Gear_Into_M3Nut.png)
 
-
 8.  The `[a]_Outer_Cover_x2.stl` has small catches and can simply be pressed on until you hear a click
-    1. *Side Note: The `[a]_Outer_Cover_x2.stl` is there to prevent the 10T gears from screwing outwards when the belts are completely loosened. During normal operation with tension on the belts the `[a]_Outer_Cover_x2.stl` it purely aesthetic and may indeed be left off entirely if desired*
+    1. *Side Note: The `[a]_Outer_Cover_x2.stl` is there to prevent the 10T gears from screwing outwards when the belts are completely loosened. During normal operation with tension on the belts the `Outer_Cover.stl` is purely aesthetic and may indeed be left off entirely if so desired*
 ![Step_8](Images/Step_8_Press_On_Outer_Cover_Until_Click.png)
 
 9. To increase tension on the belts the exposed control screw must be turned anti-clockwise (and to decrease tension, clockwise). The gear mechanism reverses the tensioning direction from that of the standard Rama Idler
