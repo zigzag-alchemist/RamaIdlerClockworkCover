@@ -11,9 +11,9 @@ https://github.com/zigzag-alchemist/RamaIdlerClockworkCover/assets/133815727/175
 
 # Warning!
 
-This mod has had almost no testing and is very experimental!
+This mod has had relatively little testing and is very experimental.
 
-It seems to work and it is very simple, but I haven't had time to test it in my machine yet, so there may be dragons lurking - I was just playing around with the design and decided to write up my progress and instructions here.
+It has been running fine in my machine (~100hrs of print time, 2 tensioning cycles) but there may still be dragons lurking.
 
 # Printed Parts
 
@@ -21,7 +21,7 @@ It seems to work and it is very simple, but I haven't had time to test it in my 
   - No supports required.
   - Parts should already be orientated correctly for printing.
 - The `suffixes_xN.stl`  denote the number of copies required for both left and right idlers. `[a]_` is for an optional accented color scheme.
-- The `Housing_Cover_[A/B]_x1.stl` is the only printed part which replaces a part of the stock Rama Idler (the [Front-Idlers\_Housing-Cover.stl](https://github.com/Ramalama2/Voron-2-Mods/blob/main/Front_Idlers/Voron%202.4/STL/Front-Idlers_Housing-Cover.stl)).
+- The `Housing_Cover_x2.stl` is the only printed part which replaces a part of the stock Rama Idler (the [Front-Idlers\_Housing-Cover.stl](https://github.com/Ramalama2/Voron-2-Mods/blob/main/Front_Idlers/Voron%202.4/STL/Front-Idlers_Housing-Cover.stl)).
 - You probably only need one of the `HexNut_Tool` options. The `Short` version may be more useful if the idler is already mounted and you only have room on one side, but the regular version is easier to use.
 
 # BOM (For 2 idlers, on top of the standard Rama Idler BOM)
@@ -38,11 +38,11 @@ Quantity      | Description              | Notes
 
 # Instructions
 
-1. Use the `HexNut_Tool_x1.stl` to press the F623-2RS into the `Housing_Cover.stl`
+1. Use the `HexNut_Tool_x1.stl` to press the F623-2RS into both `Housing_Cover_x2.stl`
 
 ![Step_1](Images/Step_1_PressFit_F623-2RS.png)
 
-2. Complete the rest of the Rama Idler and then install the `Housing_Cover.stl`
+2. Complete the rest of the Rama Idler and then install the `Housing_Cover_x2.stl`
   with a M3x12SHCS. *Careful not to overtighten, it threads into plastic*
 
 ![Step_2](Images/Step_2_M3x12_Attach_Housing_Cover.png)
@@ -72,8 +72,8 @@ Quantity      | Description              | Notes
 ![Step_7](Images/Step_7_Screw_Control_Gear_Into_M3Nut.png)
 
 
-8.  The `Outer_Cover.stl` has small catches and can simply be pressed on until you hear a click
-    1. *Side Note: The `Outer_Cover.stl` is there to prevent the 10T gears from screwing outwards when the belts are completely loosened. During normal operation with tension on the belts the `Outer_Cover.stl` it purely aesthetic and may indeed be left off entirely if desired*
+8.  The `[a]_Outer_Cover_x2.stl` has small catches and can simply be pressed on until you hear a click
+    1. *Side Note: The `[a]_Outer_Cover_x2.stl` is there to prevent the 10T gears from screwing outwards when the belts are completely loosened. During normal operation with tension on the belts the `[a]_Outer_Cover_x2.stl` it purely aesthetic and may indeed be left off entirely if desired*
 ![Step_8](Images/Step_8_Press_On_Outer_Cover_Until_Click.png)
 
 9. To increase tension on the belts the exposed control screw must be turned anti-clockwise (and to decrease tension, clockwise). The gear mechanism reverses the tensioning direction from that of the standard Rama Idler
